@@ -11,8 +11,8 @@ Este repositorio contiene las entregas progresivas del proyecto del curso **Mode
 | Nombre completo | Cédula | Programa académico | Usuario Kaggle |
 |-----------------|--------|--------------------|----------------|
 | Cristian Diez | 1036967493 | Ingeniería de Sistemas | cdiezlop |
-| Rafael Ángel Alemán Castillo | 1001560844 | Ingeniería de Sistemas | - |
-| Alejandro Gallego Alarcón | 1013104268 | Ingeniería de Sistemas | - |
+| Rafael Ángel Alemán Castillo | 1038141356 | Ingeniería de Sistemas | rafa710 |
+| Jonatan Romero Arrieta | 1013104268 | Ingeniería de Sistemas | jonatanromeroarrieta |
 
 ---
 
