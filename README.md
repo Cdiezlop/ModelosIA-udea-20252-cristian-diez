@@ -1,41 +1,46 @@
-# ENTREGA 2 - Proyecto AI4ENG UDEA
+# ENTREGA FINAL - Proyecto AI4ENG UDEA 2025-2
 
-## Competencia Kaggle: Pruebas Saber Pro 2025-2
-
-Este repositorio contiene las entregas progresivas del proyecto del curso **Modelos y Simulación de Sistemas** (Semestre 2025-2), enfocado en predecir el rendimiento global de los estudiantes en las Pruebas Saber Pro.
+## Solución de Clasificación para Pruebas Saber Pro Colombia
 
 ---
 
 ## Integrantes del equipo
 
 | Nombre completo | Cédula | Programa académico | Usuario Kaggle |
-|-----------------|--------|--------------------|----------------|
-| Cristian Diez | 1036967493 | Ingeniería de Sistemas | cdiezlop |
+|---|---|---|---|
+| **Cristian David Diez Lopez** | 1036967493 | Ingeniería de Sistemas | cdiezlop |
 | Rafael Ángel Alemán Castillo | 1038141356 | Ingeniería de Sistemas | rafa710 |
 | Jonatan Romero Arrieta | 1013104268 | Ingeniería de Sistemas | jonatanromeroarrieta |
 
 ---
 
-## Entrega 2: Video de Avance y Preprocesado
+## Videos de Sustentación
 
-**Video de Avance (Cristian Diez):** [https://youtu.be/Ej9LHUxAb5Y](https://youtu.be/Ej9LHUxAb5Y)
+### Video de la Entrega 2 (Avance)
+* **Enlace:** [https://youtu.be/Ej9LHUxAb5Y](https://youtu.be/Ej9LHUxAb5Y)
+* **Contenido:** Explicación del preprocesamiento inicial (`02 - preprocesado.ipynb`) y dificultades encontradas.
 
-*(Este video individual explica el avance del proyecto, el notebook 02, y las dificultades encontradas, según los requisitos de la entrega 2).*
-
----
-
-## Contenido del repositorio
-
-| Archivo | Descripción |
-|----------|-------------|
-| `01 - exploración.ipynb` | (Entrega 1) Carga y exploración básica del conjunto de datos `train.csv`. |
-| `02 - preprocesado.ipynb` | (Entrega 2) Carga de datos desde Kaggle, limpieza, imputación de nulos, One-Hot Encoding y normalización de los datos. |
-| `README.md` | Información general del proyecto, integrantes y enlace al video de avance. |
+### Video de la Entrega Final (Solución y Ranking)
+* **Enlace:** [Enlace](Enlace)
+* **Contenido:** Explicación de la solución final (`99 - modelo solución.ipynb`), modelos de contraste (`03` y `04`) y posición en el Leaderboard de Kaggle.
 
 ---
 
-## Información académica
-- **Curso:** Modelos y Simulación de Sistemas
-- **Semestre:** 2025-2
-- **Docente:** Raúl Ramos Pollán
-- **Institución:** Universidad de Antioquia
+## Contenido del Repositorio (Nomenclatura Estricta)
+
+| Archivo | Entrega | Descripción |
+| :--- | :--- | :--- |
+| `01 - exploración.ipynb` | 1 | Carga, inspección de datos y análisis de la variable objetivo (`RENDIMIENTO_GLOBAL`). |
+| `02 - preprocesado.ipynb` | 2 | Pipeline inicial de preprocesamiento, limpieza y generación de *features*. |
+| `03 - modelo con preprocesado de tal forma y CatBoost.ipynb` | Final | **Modelo Alternativo 1:** Estrategia CatBoost de optimización rápida con imputación por Media. |
+| `04 - modelo con preprocesado de otra forma y Random Forest.ipynb` | Final | **Modelo Alternativo 2:** Estrategia tradicional de Pipeline (One-Hot Encoding + StandardScaler) con Random Forest. |
+| `99 - modelo solución.ipynb` | Final | **Solución Definitiva:** Modelo CatBoost optimizado (900 iteraciones, profundidad 10) con imputación por Mediana para la submission final. |
+
+---
+
+## Información Académica
+
+* **Curso:** Modelos y Simulación de Sistemas
+* **Semestre:** 2025-2
+* **Docente:** Raúl Ramos Pollán
+* **Institución:** Universidad de Antioquia
