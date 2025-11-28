@@ -21,7 +21,7 @@
 * **Contenido:** Explicación del preprocesamiento inicial (`02 - preprocesado.ipynb`) y dificultades encontradas.
 
 ### Video de la Entrega Final (Solución y Ranking)
-* **Enlace:** [Enlace](Enlace)
+* **Enlace:** [(https://youtu.be/ogvx2DtyAw8)](https://youtu.be/ogvx2DtyAw8)
 * **Contenido:** Explicación de la solución final (`99 - modelo solución.ipynb`), modelos de contraste (`03` y `04`) y posición en el Leaderboard de Kaggle.
 
 ---
