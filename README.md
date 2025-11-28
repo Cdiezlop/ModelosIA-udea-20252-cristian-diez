@@ -32,8 +32,8 @@
 | :--- | :--- | :--- |
 | `01 - exploración.ipynb` | 1 | Carga, inspección de datos y análisis de la variable objetivo (`RENDIMIENTO_GLOBAL`). |
 | `02 - preprocesado.ipynb` | 2 | Pipeline inicial de preprocesamiento, limpieza y generación de *features*. |
-| `03 - modelo con preprocesado de tal forma y CatBoost.ipynb` | Final | **Modelo Alternativo 1:** Estrategia CatBoost de optimización rápida con imputación por Media. |
-| `04 - modelo con preprocesado de otra forma y Random Forest.ipynb` | Final | **Modelo Alternativo 2:** Estrategia tradicional de Pipeline (One-Hot Encoding + StandardScaler) con Random Forest. |
+| `03 - modelo_con_preprocesado_CatBoost.ipynb` | Final | **Modelo Alternativo 1:** Estrategia CatBoost de optimización rápida con imputación por Media. |
+| `04 - modelo_con_preprocesado Random_Forest con Pipeline.ipynb` | Final | **Modelo Alternativo 2:** Estrategia tradicional de Pipeline (One-Hot Encoding + StandardScaler) con Random Forest. |
 | `99 - modelo solución.ipynb` | Final | **Solución Definitiva:** Modelo CatBoost optimizado (900 iteraciones, profundidad 10) con imputación por Mediana para la submission final. |
 
 ---
